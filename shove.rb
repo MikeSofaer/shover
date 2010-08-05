@@ -38,7 +38,7 @@ EventMachine.run {
       @channel.push "A HUMAN HAS STOOD BY THE STAIRS IN HIS HOUSE"
 
       ws.onmessage { |msg|
-        @channel.push "<#{sid}>: #{msg}"
+        @channel.push "THE HUMAN KNOWN AS #{sid} DECLAIMS: #{msg.upcase}"
       }
 
       ws.onclose {

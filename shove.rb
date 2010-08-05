@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'em-websocket'
 
 class Baker

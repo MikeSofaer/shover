@@ -13,7 +13,7 @@ class Baker
     }
   end     
   def bake
-    EM::Timer.new(5) {help}
+    EM::Timer.new(10) {help}
   end
 
   def next_loaf

@@ -14,7 +14,7 @@
   </li>
 </ul>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"> </script>
 <script>ws = new WebSocket("ws://shoverapp.com:8080/");
   ws.onmessage = function(evt) {
     $("#stairs").after("<li margin-top='200px' margin-bottom='50px'>" +evt.data + "</li>" )
